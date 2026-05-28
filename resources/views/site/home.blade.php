@@ -1,5 +1,5 @@
 @extends('site.layout')
-@section('title', 'Essa é a pagina home')
+@section('title', 'Home')
 @section('conteudo')
 
     <div class="container">
@@ -12,14 +12,14 @@
                         
                         <div class="card-image">
                             <img src="{{($produto->imagem)}}">  
-                            <a class="btn-floating halfway-fab waves-effect waves-light red">
+                            <a href="{{route('site.details', $produto->slug)}}" class="btn-floating halfway-fab waves-effect waves-light red">
                                 <i class="material-icons">visibility</i>
                             </a>
                         </div>
                         
                         <div class="card-content">
-                            <span class="card-title">{{ Str::limit($produto->nome, 20) }}</span>
-                            <p>{{ Str::limit($produto->descricao, 20) }}</p>
+                            <span class="card-title">{{ \Illuminate\Support\Str::limit($produto->nome, 20) }}</span>
+                            <p>{{ \Illuminate\Support\Str::limit($produto->descricao, 20) }}</p>
                         </div>
                         
                     </div>
@@ -28,7 +28,7 @@
             
         </div>
         <div class="row center">
-            {{ $produtos->links('custom.paginaion')}}
+            {{ $produtos->links('custom.pagination')}}
         </div>        
 
 
