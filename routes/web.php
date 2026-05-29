@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProdutoController;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\CarrinhoController;
+use App\Http\Controllers\loginController;
 
 Route::resource('produtos', ProdutoController::class);
 
@@ -14,6 +15,13 @@ Route::get('/categoria/{id}', [SiteController::class, 'categoria'])->name('site.
 
 Route::get('/carrinho', [CarrinhoController::class, 'carrinhoLista'])->name('site.carrinho');
 Route::post('/carrinho', [CarrinhoController::class, 'adicionarCarrinho'])->name('site.addCarrinho');
+Route::post('/remover', [CarrinhoController::class, 'removerCarrinho'])->name('site.removerCarrinho');
+Route::post('/atualizar', [CarrinhoController::class, 'atualizarCarrinho'])->name('site.atualizarCarrinho');
+Route::get('/limpar', [CarrinhoController::class, 'limparCarrinho'])->name('site.limparCarrinho');
+
+Route::view('/login', 'login.form')->name('site.login');
+Route::post('/auth', [loginController::class, 'auth'])->name('login.auth');
+
 
 //Usando grupo para remover prefixos name e /adimin da URL, além de organizar melhor as rotas.
 // Route :: group([

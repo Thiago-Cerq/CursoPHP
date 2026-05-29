@@ -1,0 +1,20 @@
+HTTP/1.1 302 Found
+Host: 127.0.0.1:8000
+Connection: close
+X-Powered-By: PHP/8.5.6
+Cache-Control: no-cache, private
+Date: Fri, 29 May 2026 12:37:17 GMT
+Location: http://127.0.0.1:8000/carrinho
+Content-Type: text/html; charset=utf-8
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Ik1YL1N0em93dDlGeFRXcUNxS1VSVUE9PSIsInZhbHVlIjoiNGFKV2V3MG9wdXZRL0VqSEd2WTNOTHJHU1dmS1V5RmpRQTZXM2xDRlRlaHYzRWFWQzZEdzA5dmh3SkZPb2xIMDcrVTQyVjBoL050VUZCTG1JRWNiUHZqRWJiM2U2dkgvTHZocHZBaTJuT0NPVHNub0RnQlZRS2JJNGh4NFUyajMiLCJtYWMiOiIzZjljNGI5ZmNmZTA4OTQwODFkODhjMjVkNTMzZDQwODEwNGVhNTFmZDE0YzExZGRlZjYyNWJjNWY3YmVhMzUyIiwidGFnIjoiIn0%3D; expires=Fri, 29 May 2026 14:37:17 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel-session=eyJpdiI6IlVTdnovTVk4L2NYd25Vb05SeFRBL2c9PSIsInZhbHVlIjoiMGdRSy9pSHllcFVDRXhtemcxWDJ6akhTYXdmcjBlUlNOZldicndPeWxwVWxFMnk1QTRQK0ppdjZMbVM2ZEx5LytyMUZFRmdFMTZKbFY2RHM5RVB3NndTL2VqbzkvUmhUd3grQWIzanpSeWJ3NlptOUdod0VyTEVuYVVObzFSUFYiLCJtYWMiOiI3ODY5OTlhYWRkZjE4YjY4OTI2ZjhiMGE2MjAwYjIwZGUyODc5NDI4NTg4NTQ1YTYxMmUzMjRkNTRlYWNkNDI4IiwidGFnIjoiIn0%3D; expires=Fri, 29 May 2026 14:37:17 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+
+HTTP/1.1 419 unknown status
+Host: 127.0.0.1:8000
+Connection: close
+X-Powered-By: PHP/8.5.6
+Cache-Control: no-cache, private
+date: Fri, 29 May 2026 12:37:17 GMT
+Content-Type: text/html; charset=utf-8
+Set-Cookie: laravel-session=eyJpdiI6ImlXdWtNcXlOWWR4MTRpOWpEYmdsZEE9PSIsInZhbHVlIjoiRk5hK2xMQkcwSmRvN20vTWs3VTJ5QmhMNGhSY1Q0dmpzSVQwN1NFYUo1TlFKTDRia2ZFbXFrSk9hUmJDVzB2UW5CZlhYdnNDb1k3dlk2Z0kxV1NOWHNENHlCcWtrcy9mL2xQbVZmRkd6SjY5UkpkUVNweVZ4aWp6YWFRNW41RVYiLCJtYWMiOiJmYWQ5NzUzOTc3YjBlNjg1MzI1MTA3ODJjYTI0NWJkZTMxMTE2NTlkNjNmYzUzYTExZTIwNmIzYzg2MTllZjI1IiwidGFnIjoiIn0%3D; expires=Fri, 29 May 2026 14:37:17 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+
